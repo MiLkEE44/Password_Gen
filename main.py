@@ -15,7 +15,8 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 password = []
 
 # Loops where the range is between 0 and user input. 
-# Password.append(random choice(letters)) will randomly choose from the referenced list and append it to the password list. 
+# Password.append(random choice(letters)) will randomly choose from the referenced list 
+# and append it to the password list. 
 for char in range (0, nr_letters):
     password.append(random.choice(letters))
 
@@ -25,7 +26,8 @@ for char in range (0, nr_symbols):
 for char in range (0, nr_numbers):
     password.append(random.choice(numbers))
     
-# Random.shuffle(password) will shuffle the selected appended list, and .join makes it a string again.
+# Random.shuffle(password) will shuffle the selected appended list, 
+# and .join makes it a string again.
 random.shuffle(password)
 password = "".join(password)
 print(f"This is your password: {password}")
