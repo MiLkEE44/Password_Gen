@@ -26,8 +26,8 @@ for char in range (0, nr_symbols):
 for char in range (0, nr_numbers):
     password.append(random.choice(numbers))
     
-# Random.shuffle(password) will shuffle the selected appended list, 
-# and .join makes it a string again.
+# Random.shuffle(password) will shuffle the appended password list, 
+# and .join will make the list a string again.
 random.shuffle(password)
 password = "".join(password)
 print(f"This is your password: {password}")
