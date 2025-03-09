@@ -16,7 +16,7 @@ password = []
 
 # Loops where the range is between 0 and the user input. 
 # Password.append(random choice(letters)) will randomly choose from the referenced list 
-# and append it to the password list. 
+# and append it to the password list, it will add the amount the user ask for. 
 for char in range (0, nr_letters):
     password.append(random.choice(letters))
 
