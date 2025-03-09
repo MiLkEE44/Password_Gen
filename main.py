@@ -14,7 +14,7 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 # string where the password where be. 
 password = []
 
-# Loops where the range is between 0 and user input. 
+# Loops where the range is between 0 and the user input. 
 # Password.append(random choice(letters)) will randomly choose from the referenced list 
 # and append it to the password list. 
 for char in range (0, nr_letters):
