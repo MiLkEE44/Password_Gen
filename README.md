@@ -1,1 +1,1 @@
-A python password generator made with lis, loops, range, and import random. 
+A Python password generator made with lists, loops, range, and import random. 
